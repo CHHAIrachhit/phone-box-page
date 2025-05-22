@@ -1,0 +1,30 @@
+/* Additional styles beyond Tailwind */
+body {
+    min-height: 100vh;
+    background-color: #f9fafb;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Smooth transitions */
+.transition-shadow {
+    transition: box-shadow 0.3s ease;
+}
+
+/* Hover effects */
+.hover\:shadow-lg:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Button hover effect */
+.bg-blue-500:hover {
+    background-color: #2563eb;
+}
+
+/* Copy button hover effect */
+.text-gray-500:hover {
+    color: #374151;
+} 
